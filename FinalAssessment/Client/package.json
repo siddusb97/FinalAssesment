@@ -1,25 +1,28 @@
 {
-  "name": "mySampleApp",
+  "name": "movie_react",
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./app.js"
+    "start": "node ./server.js"
   },
   "dependencies": {
-    "body-parser": "~1.13.2",
-    "chai": "^3.5.0",
-    "cookie-parser": "~1.3.5",
-    "debug": "~2.2.0",
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "body-parser": "^1.15.1",
+    "browserify": "^13.0.1",
     "ejs": "^2.4.2",
-    "express": "~4.13.1",
-    "jade": "~1.11.0",
-    "mongodb": "^2.1.21",
-    "mongoose": "^4.4.19",
-    "morgan": "~1.6.1",
+    "express": "^4.13.4",
+    "mongo": "^0.1.0",
+    "mongoose": "^4.4.20",
     "node-movie": "^2.0.0",
-    "omdb": "^0.5.0",
-    "serve-favicon": "~2.3.0",
-    "superagent": "^2.0.0",
-    "supertest": "^1.2.0"
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-router": "^2.4.1",
+    "reactify": "^1.1.1",
+    "reflux": "^0.4.1",
+    "vinyl-source-stream": "^1.1.0"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "port" : 8080,
-  "DatabaseURL" : "mongodb://localhost/blogDatabase",
-  "secret" :"someSecretKey"
+  "port":8080,
+  "dburl" : "mongodb://localhost:27017/newdatabase",
+  "secret" : "idontknow"
 }

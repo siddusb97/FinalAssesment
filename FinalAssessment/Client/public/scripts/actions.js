@@ -1,7 +1,6 @@
-var Reflux=require('reflux');
-var Actions=Reflux.createActions([
-  "list","delete","searchMovie","publishBlog",
-  "handleLoginAuth","handleRegistration"
+var Reflux=require("reflux");
+var actions=Reflux.createActions([
+  "addPost",
+  "getPosts"
 ]);
-
-module.exports=Actions;
+module.exports=actions;
